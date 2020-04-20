@@ -17,7 +17,7 @@ To run end-to-end model , type
 ```bash
 python3 endtoend.py
 ```
-![alt text](https://raw.githubusercontent.com/Deepak2405/Ridge-i-Assignment/blob/master/images/sample_output_end_to_end.png)
+![alt text](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/sample_output_end_to_end.png)
 
 To run seperate-training model , type
 ```bash
