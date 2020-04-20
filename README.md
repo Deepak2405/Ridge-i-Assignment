@@ -1,4 +1,4 @@
-# Supervised-Unsupervised Training 
+# Supervised-Unsupervised Training on CIFAR-10 dataset
 
 Using Autoencoders for feature extraction on CIFAR-10 dataset and passing the encoded features to image classifier network. Two types of architecture models have been trained.
 
@@ -10,6 +10,8 @@ Using Autoencoders for feature extraction on CIFAR-10 dataset and passing the en
 
 In this model, the autoencoders are trained first and then the encoded data is fed to image classifier network.
 
+Further, for the purpose of comparison, we have used simple convolutional neural network model where the CNN architecture is same as architecture used for image classifer network by the other models.
+
 
 ## How to use
 
@@ -20,13 +22,17 @@ python3 endtoend.py
 \
 **a. Confusion Matrix Heat Map**\
 ![alt text](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/heatmap_end_to_end.png)
+
 \
 **b. Random Image and its predicted Class**\
 ![alt text](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/sample_output_end_to_end.png)
+
 \
+
 **c. Model accuracy and Loss**\
 ![alt-text-1](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/accuracy_end_to_end.png "Model Accuracy") \
 ![alt-text-2](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/loss_end_to_end.png "Model Loss")
+
 \
 To run seperate-training model , type
 ```bash
@@ -44,7 +50,7 @@ python3 seperate-classifier.py
 ![alt-text-1](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/accuracy_seperate_classifier.png "Model Accuracy") \
 ![alt-text-2](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/loss_seperate_classifier.png "Model Loss")
 \
-To run simple convolution neural network model , type
+To run simplre-CNN model , type
 ```bash
 python3 classic-conv.py
 ```
@@ -60,6 +66,11 @@ python3 classic-conv.py
 ![alt-text-1](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/accuracy_classifier.png "Model Accuracy") \
 ![alt-text-2](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/loss_classifier.png "Model Loss")
 \
+
+**Comparision of all three models**\
+\
+a. Scatter Plot
+![alt text](https://github.com/Deepak2405/Ridge-i-Assignment/blob/master/images/scatter_plot.png)
 
 
 
