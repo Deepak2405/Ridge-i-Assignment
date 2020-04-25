@@ -12,7 +12,7 @@ In this model, the autoencoders are trained first and then the encoded data is f
 
 Further, for the purpose of comparison, we have used simple convolutional neural network model where the CNN architecture is same as architecture used for image classifer network by the other models.
 
-
+The report of this assignment can be downloaded at Report.pdf
 ## How to use
 
 To run end-to-end model , type
